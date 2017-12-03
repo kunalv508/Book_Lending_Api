@@ -1,0 +1,17 @@
+{
+  "name": "Blood-Donor",
+  "version": "0.0.0",
+  "description": "Application for Blood donors and hospitals.",
+  "main": "index.js",
+  "repository": "",
+  "author": "Kunal Verma <mo.kunalv508@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "hapi" : "*",
+    "vision" : "*",
+    "handlebars" : "*",
+    "mysql" : "*",
+    "joi" : "*",
+    "inert" : "*"
+  }
+}
