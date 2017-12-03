@@ -20,10 +20,11 @@ API URL= http://servername/addBook
 {"isbn":"123","title":"san","availability":"yes","author":"san","genre":"san","pubInfo":{"publishDate":"12-13-2013","publisher":"test"}}
 
 4.Method=GET
-API URL= http://servername/getBook/12322
+API URL= http://servername/getBook
 
-/getAllBook
-/deleteBook/1233
+/getBook/12322    for getting particular book by its isbn passing one parameter
+/getAllBook  for getting all books in database
+/deleteBook/1233   for deleting particular book using isbn as a parameter
 /getBookByGenre/k
 /getBookByTitle/s
 /getBookByAuthor/san
